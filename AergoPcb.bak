@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AergoPcb-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -391,72 +390,4 @@ Text GLabel 4050 3000 0    50   Input ~ 0
 D+
 Text GLabel 4050 3100 0    50   Input ~ 0
 D-
-$Comp
-L random-keyboard-parts:Molex-0548190589 USB?
-U 1 1 5C859DAB
-P 2075 2025
-F 0 "USB?" V 2612 1994 60  0000 C CNN
-F 1 "Molex-0548190589" V 2506 1994 60  0000 C CNN
-F 2 "" H 2075 2025 60  0001 C CNN
-F 3 "" H 2075 2025 60  0001 C CNN
-	1    2075 2025
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Polyfuse_Small F?
-U 1 1 5C859EB2
-P 3025 1825
-F 0 "F?" V 2820 1825 50  0000 C CNN
-F 1 "500mA" V 2911 1825 50  0000 C CNN
-F 2 "" H 3075 1625 50  0001 L CNN
-F 3 "~" H 3025 1825 50  0001 C CNN
-	1    3025 1825
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 5C85ABBD
-P 2650 1825
-F 0 "#PWR?" H 2650 1675 50  0001 C CNN
-F 1 "VCC" H 2667 1998 50  0000 C CNN
-F 2 "" H 2650 1825 50  0001 C CNN
-F 3 "" H 2650 1825 50  0001 C CNN
-	1    2650 1825
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C85AC52
-P 3325 1825
-F 0 "#PWR?" H 3325 1675 50  0001 C CNN
-F 1 "+5V" H 3340 1998 50  0000 C CNN
-F 2 "" H 3325 1825 50  0001 C CNN
-F 3 "" H 3325 1825 50  0001 C CNN
-	1    3325 1825
-	1    0    0    -1  
-$EndComp
-Text GLabel 2375 2025 2    50   Input ~ 0
-D+
-Text GLabel 2375 1925 2    50   Input ~ 0
-D-
-Wire Wire Line
-	2375 1825 2650 1825
-Wire Wire Line
-	2650 1825 2925 1825
-Connection ~ 2650 1825
-Wire Wire Line
-	3125 1825 3325 1825
-$Comp
-L power:GND #PWR?
-U 1 1 5C85FBAF
-P 2475 2225
-F 0 "#PWR?" H 2475 1975 50  0001 C CNN
-F 1 "GND" H 2480 2052 50  0000 C CNN
-F 2 "" H 2475 2225 50  0001 C CNN
-F 3 "" H 2475 2225 50  0001 C CNN
-	1    2475 2225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2375 2225 2475 2225
 $EndSCHEMATC
