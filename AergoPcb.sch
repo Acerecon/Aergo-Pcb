@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -442,12 +442,6 @@ S 5775 5475 1250 400
 U 5CDFA39B
 F0 "Matrix" 50
 F1 "matrix.sch" 50
-$EndSheet
-$Sheet
-S 8000 5450 1750 425 
-U 5CDFA950
-F0 "RGB LED Strip" 50
-F1 "rgb_strip.sch" 50
 $EndSheet
 Wire Wire Line
 	4200 5425 3825 5425

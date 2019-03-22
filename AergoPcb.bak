@@ -471,4 +471,11 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    4300 3625
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 4800 2150 4800
+Wire Wire Line
+	2150 4800 2150 5300
+Wire Wire Line
+	2150 5300 2050 5300
+Connection ~ 2050 5300
 $EndSCHEMATC
