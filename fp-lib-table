@@ -3,4 +3,5 @@
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Type-C.pretty)(options "")(descr ""))
   (lib (name "Ace's Footprints")(type KiCad)(uri "${KIPRJMOD}/Ace's Footprints.pretty")(options "")(descr ""))
+  (lib (name Connectors_JST)(type KiCad)(uri ${KIPRJMOD}/Connectors_JST.pretty)(options "")(descr ""))
 )
