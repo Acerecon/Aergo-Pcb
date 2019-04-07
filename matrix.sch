@@ -422,8 +422,8 @@ L MX_Alps_Hybrids:MX-1U MX?
 U 1 1 5CE40BC3
 P 8875 3400
 AR Path="/5CE40BC3" Ref="MX?"  Part="1" 
-AR Path="/5CDFA39B/5CE40BC3" Ref="MXIL1"  Part="1" 
-F 0 "MXIL1" H 8961 3617 60  0000 C CNN
+AR Path="/5CDFA39B/5CE40BC3" Ref="MX_I1"  Part="1" 
+F 0 "MX_I1" H 8961 3617 60  0000 C CNN
 F 1 "MX-1U" H 8961 3543 20  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-1U" H 8850 3375 60  0001 C CNN
 F 3 "" H 8850 3375 60  0001 C CNN
@@ -3914,17 +3914,6 @@ Wire Wire Line
 	5225 6075 5400 6075
 Wire Wire Line
 	4750 6075 5025 6075
-$Comp
-L Ace's~Schematic~Symbols:Mosfet-DMN63D8L M1
-U 1 1 5CA1B7FF
-P 5650 6075
-F 0 "M1" H 5827 6121 50  0000 L CNN
-F 1 "Mosfet-DMN63D8L" H 5827 6030 50  0000 L CNN
-F 2 "Ace's Footprints:Mosfet-DMN63D8L" H 5650 6075 50  0001 C CNN
-F 3 "" H 5650 6075 50  0001 C CNN
-	1    5650 6075
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 6325 5650 6425
 $Comp
@@ -4124,7 +4113,7 @@ COL10
 Text GLabel 5375 4100 0    50   Input ~ 0
 COL11
 Text GLabel 5375 4000 0    50   Input ~ 0
-COl12
+COL12
 Text GLabel 5375 3900 0    50   Input ~ 0
 COL13
 Wire Wire Line
@@ -4146,4 +4135,18 @@ Wire Wire Line
 	5005 3600 5005 3580
 Wire Wire Line
 	5005 3600 5375 3600
+Wire Wire Line
+	3800 3950 3800 3375
+Connection ~ 3800 3375
+$Comp
+L Aces_Schematic_Symbols:Mosfet-DMN63D8L M1
+U 1 1 5CA7C160
+P 5650 6075
+F 0 "M1" H 5827 6121 50  0000 L CNN
+F 1 "Mosfet-DMN63D8L" H 5827 6030 50  0000 L CNN
+F 2 "Aces Footprints:Mosfet-DMN63D8L" H 5650 6075 50  0001 C CNN
+F 3 "" H 5650 6075 50  0001 C CNN
+	1    5650 6075
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

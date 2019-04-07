@@ -1,7 +1,10 @@
 (sym_lib_table
   (lib (name MX_Alps_Hybrids)(type Legacy)(uri "${KIPRJMOD}/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrids.lib")(options "")(descr ""))
-  (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name SamacSys_Parts)(type Legacy)(uri D:/Kicad/SamacSys_Parts.lib)(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Type-C.pretty/Type-C.lib)(options "")(descr ""))
-  (lib (name "Ace's Schematic Symbols")(type Legacy)(uri "D:/Github/Aergo-Pcb/Ace's Schematic Symbols.lib")(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name Aces_Schematic_Symbols)(type Legacy)(uri "${KIPRJMOD}/Aces Schematic Symbols.lib")(options "")(descr ""))
+  (lib (name random-keyboard-parts_soyuz)(type Legacy)(uri "D:/Random/random-keyboard-parts.pretty-404a0ef54837003e0d2d2cf02873a3392cb39d79/Schematic Library/random-keyboard-parts_soyuz.lib")(options "")(descr ""))
+  (lib (name Aces_Footprints)(type Legacy)(uri "D:/Github/Aergo-Pcb/Aces Footprints.pretty/Aces_Footprints.lib")(options "")(descr ""))
+  (lib (name 2019-04-04_07-10-47)(type Legacy)(uri ${KIPRJMOD}/2019-04-04_07-10-47.lib)(options "")(descr ""))
 )
